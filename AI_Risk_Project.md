@@ -3,6 +3,11 @@
 • The Inherent Risk (Raw Danger): If we do nothing, a hacker could trick the chatbot into leaking private database info (Intentional Threat), or an employee might accidentally paste private customer data into the chat (Unintentional Threat).
 • The Cost of Doing Nothing: We estimate a major data leak could cost the company $200,000 in fines.
 
+1. Risk Treatment Option Selected: Mitigation (Reduction) via software guardrails and centralized logging.
+2. Mitigation Cost: $10,000 (Developer hours to write filters and configure logging tools).
+3. New ARO (Post-Control): 0.1 (Reduced from twice a year to once every 10 years because most automated attacks are now blocked at the boundary).
+4. New ALE (Residual Risk): $12,000 *\((\$120,000 \text{ SLE} \times 0.1 \text{ ARO})*. 5.\)  Net Security Savings: \(\$240,000 \text{ (Inherent ALE)} - \$12,000 \text{ (Residual ALE)} - \$10,000 \text{ (Control Cost)} = \mathbf{\$218,000}\) in business value saved.
+
 
 import logging
 
