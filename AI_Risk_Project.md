@@ -1,4 +1,4 @@
-• he Scenario: Our company is using a new customer service AI chatbot.
+• The Scenario: Our company is using a new customer service AI chatbot.
 • The Vulnerability (Weakness): Users can type anything they want into the text box, and the system doesn't check it before sending it to the AI.
 • The Inherent Risk (Raw Danger): If we do nothing, a hacker could trick the chatbot into leaking private database info (Intentional Threat), or an employee might accidentally paste private customer data into the chat (Unintentional Threat).
 • The Cost of Doing Nothing: We estimate a major data leak could cost the company $200,000 in fines.
